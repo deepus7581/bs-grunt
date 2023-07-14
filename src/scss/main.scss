@@ -1,0 +1,11 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "helpers";
+@import "theme_variable";
+@import "loader";
+@import "base";
+
+body{
+    background-color: rgb(10, 218, 166);
+     color: fff;
+}
+
