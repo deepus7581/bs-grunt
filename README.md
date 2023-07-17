@@ -23,4 +23,4 @@ This is a starter pack for creating HTML projects based on Bootstrap v5.3.0. It 
 
    ```bash
    npm install
-   gulp
+   grunt
