@@ -61,14 +61,14 @@ module.exports = function (grunt) {
       },
       imagemin: {
         dynamic: {
-          options:{
+          options: {
             optimizationLevel: 5,
           },
           files: [
             {
               expand: true,
               cwd: 'src/img/',
-              src: ['**/*.{png,jpg,gif}'],
+              src: ['**/*.{png,jpg,gif,svg}'],
               dest: 'dist/img/',
             },
           ],
@@ -89,7 +89,7 @@ module.exports = function (grunt) {
             },
           ],
         },
-      },
+      },      
       browserSync: {
         bsFiles: {
           src: ['dist/css/**/*.css', 'dist/js/**/*.js', '*.html'],
@@ -144,7 +144,7 @@ module.exports = function (grunt) {
           tasks: ['scripts'],
         },
         images: {
-          files: ['src/img/**/*.{png,jpg,gif}'],
+          files: ['src/img/**/*.{png,jpg,gif,svg,webp}'],
           tasks: ['imagemin', 'cwebp', 'notify:images'],
         },
         html: {
