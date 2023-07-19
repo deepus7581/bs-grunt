@@ -18,6 +18,20 @@ This is a starter pack for creating HTML projects based on Bootstrap v5.3.0. It 
    ```bash
    npm install -g grunt-cli
 
+## Folder Structure
+- src/
+  - js/
+    - plugins/
+  - img/
+  - scss/
+  
+- dist/
+  - js/
+  - img/
+    - webp/
+  - scss/
+
+     
 
 ## Installation
 
