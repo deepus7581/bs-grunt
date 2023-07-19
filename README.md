@@ -15,6 +15,10 @@ This is a starter pack for creating HTML projects based on Bootstrap v5.3.0. It 
 
 - Node.js (https://nodejs.org) should be installed on your machine.
 
+   ```bash
+   npm install -g grunt-cli
+
+
 ## Installation
 
 1. Clone the repository to your local machine.
